@@ -75,7 +75,7 @@ public:
         versionLabel = new QLabel(AboutDialog);
         versionLabel->setObjectName(QString::fromUtf8("versionLabel"));
         versionLabel->setCursor(QCursor(Qt::IBeamCursor));
-        versionLabel->setText(QString::fromUtf8("0.3.666-beta"));
+        versionLabel->setText(QString::fromUtf8("1.0"));
         versionLabel->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
 
         horizontalLayout->addWidget(versionLabel);
@@ -90,8 +90,9 @@ public:
         copyrightLabel = new QLabel(AboutDialog);
         copyrightLabel->setObjectName(QString::fromUtf8("copyrightLabel"));
         copyrightLabel->setCursor(QCursor(Qt::IBeamCursor));
-        copyrightLabel->setText(QString::fromUtf8("Copyright &copy; 2009-YYYY The Bitcoin developers\n"
-"Copyright &copy; 2011-YYYY The Citicoin developers"));
+        copyrightLabel->setText(QString::fromUtf8("Copyright &copy; 2009-2010 The Bitcoin developers\n"
+"Copyright &copy; 2011-2017 The Litecoin developers\n"
+"Copyright &copy; 2018 Citioption Developer"));
         copyrightLabel->setTextFormat(Qt::RichText);
         copyrightLabel->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
 
@@ -132,7 +133,7 @@ public:
         AboutDialog->setWindowTitle(QApplication::translate("AboutDialog", "About Citicoin", 0, QApplication::UnicodeUTF8));
         label->setText(QApplication::translate("AboutDialog", "<b>Citicoin</b> version", 0, QApplication::UnicodeUTF8));
         label_2->setText(QApplication::translate("AboutDialog", "\n"
-"This is experimental software.\n"
+"Citioption is trading technology and citicoin is the currency of the citioption ecosystem.\n"
 "\n"
 "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.\n"
 "\n"

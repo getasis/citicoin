@@ -63,7 +63,7 @@
           <cursorShape>IBeamCursor</cursorShape>
          </property>
          <property name="text">
-          <string notr="true">0.3.666-beta</string>
+          <string notr="true">1.0</string>
          </property>
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -91,8 +91,9 @@
         <cursorShape>IBeamCursor</cursorShape>
        </property>
        <property name="text">
-        <string notr="true">Copyright &amp;copy; 2009-YYYY The Bitcoin developers
-Copyright &amp;copy; 2011-YYYY The Citicoin developers</string>
+        <string notr="true">Copyright &amp;copy; 2009-2010 The Bitcoin developers
+Copyright &amp;copy; 2011-2017 The Litecoin developers
+Copyright &amp;copy; 2018 Citioption Developer</string>
        </property>
        <property name="textFormat">
         <enum>Qt::RichText</enum>
@@ -109,7 +110,7 @@ Copyright &amp;copy; 2011-YYYY The Citicoin developers</string>
        </property>
        <property name="text">
         <string>
-This is experimental software.
+Citioption is trading technology and citicoin is the currency of the citioption ecosystem.
 
 Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
